@@ -1,0 +1,1606 @@
+---
+- Q2O_Custom_Settings__c:
+  - Name: OpptyTrigger#Stage6SignedValue
+    value__c: 6-Signed
+  - Name: Verizon Accounts
+    value__c: 1-5K8P
+  - Name: ProductApprovalStatusValues
+    value__c: PENDING-TECHNICAL,PENDING-APPROVAL,APPROVED
+  - Name: BED#dateGreaterThanReseller
+    value__c: The Billing Effective date should not be greater than the End date of
+      the Tier 1 Reseller Agreement.
+  - Name: ReadOnlyAgreementViolation
+    value__c: You cannot edit a read only agreement
+  - Name: LineStatus
+    value__c: Incremented,Amended,Renewed,Cancelled
+  - Name: SkipProductApprovalPurposes
+    value__c: Deferral Of Billing Effective Date,Extension Of Term
+  - Name: EOT#endDateLEAgreement
+    value__c: The Agreement End date should be greater than End date of Agreement
+      being Extended.
+  - Name: EOTLabel
+    value__c: Extension Of Term
+  - Name: BEDLabel
+    value__c: Deferral Of Billing Effective Date
+  - Name: docxAllowedAccounts
+    value__c: 001A0000004uitR,001A0000004uo2l
+  - Name: AcceptQuoteCCError
+    value__c: Please finish the credit check process and then accept the quote
+  - Name: ChangeOrderRecordTypeId
+    value__c: 012Z00000004gCSIAY
+  - Name: EOT#endDateGreaterThanReseller
+    value__c: The Agreement End date should not be greater than the End date of the
+      Tier 1 Reseller Agreement.
+  - Name: Trial#ExtensionError
+    value__c: Trial cannot be extended for more than 180 days.
+  - Name: ReadOnlyQuoteViolation
+    value__c: 'This action cannot be performed due to either of the issues below:
+      1. You''re trying to edit a Quote for which an Agreement has already been generated
+      OR 2. There''s another Quote under this Opportunity for which an Agreement has
+      been generated'
+  - Name: ProfilesAllowedForDocxGeneration
+    value__c: SA - Analyst,System Administrator,Legal,Sales - Inside Sales
+  - Name: TaskCreationClass#TaskSubjectDefault
+    value__c: SA Task
+  - Name: TaskCreationClass#quoteErrorMessage
+    value__c: There is no Order Approval associated to the Opportunity
+  - Name: EdgeSuiteTransistionWorkFlowId
+    value__c: a0NZ000000MfSBB
+  - Name: CollectionUser
+    value__c: 005A0000000NHIEIA4
+  - Name: PaymentTypesForOverageValidation
+    value__c: Straight Line Commitment,Period Commitment,Monthly Commit - Fixed Overage
+  - Name: PurposesAllowedforPurchaseOrder
+    value__c: New,Modify
+  - Name: EditOnFullySignedAgreement
+    value__c: You cant edit a fully Signed Agreement
+  - Name: EOT#fieldUpdateError
+    value__c: You cannot Edit any Details Other Than the Agreement End Date.
+  - Name: BED#otherFieldUpdateEr
+    value__c: You cannot Edit any Details Other Than the Billing Effective Date.
+  - Name: ProductApprovalStatusValuesRejected
+    value__c: Rejected
+  - Name: BED#invaliddate
+    value__c: The new Billing Effective Date should be greater than the Previous Billing
+      EffectiveDate.
+  - Name: PricingApprovalStatusValues
+    value__c: Not Submitted,Notified,Submitted,Assigned,Rejected,Reassigned,Cancelled,On
+      Hold
+- Apttus_Approval__ApprovalsCustomConfig__c: []
+- Apttus_Approval__ApprovalsSystemProperties__c:
+  - Name: System Properties
+    Apttus_Approval__ApprovalTaskPrefix__c: ''
+    Apttus_Approval__BackupAdminProfile__c: System Administrator
+    Apttus_Approval__BackupAdminUser__c: ''
+    Apttus_Approval__BackupFilterPage__c: ''
+    Apttus_CQApprov__CartApprovalContextType__c: ''
+    Apttus_Approval__EmailApprovalServiceAddress__c: ''
+    Apttus_Approval__EmailSenderDisplayName__c: ''
+    Apttus_Approval__EnableApprovalRequestAutoEscalation__c: 'false'
+    Apttus_Approval__EnableEmailApprovalResponse__c: 'false'
+    Apttus_Approval__InstanceUrl__c: ''
+    Apttus_Approval__ReassignFilterPage__c: ''
+    Apttus_Approval__UIAssigneeSearchPageSize__c: ''
+    Apttus_Approval__UICustomAssigneeObjectTypes__c: ''
+- Apttus__ComplyCustomClasses__c: []
+- Apttus__ComplySystemProperties__c:
+  - Name: System Properties
+    Apttus__AdminUser__c: ''
+    Apttus_CMConfig__AutoSyncWithOpportunity__c: 'false'
+    Apttus__BypassSharing__c: 'true'
+    Apttus__ContractSummaryTemplate__c: ''
+    Apttus__DefaultOpportunityAgreementOwner__c: Opportunity Owner
+    Apttus__EmailTemplateForCheckinNotification__c: ''
+    Apttus__EnableMultipleCheckout__c: 'false'
+    Apttus__EnablePDFSecurity__c: 'false'
+    Apttus__EnableSubmitMergeCall__c: 'false'
+    Apttus__EnableVersionControl__c: 'true'
+    Apttus__InstanceUrl__c: https://akamai--l2cint.cs20.my.salesforce.com
+    Apttus__MaxChildLevel__c: ''
+    Apttus__MergeCallTimeoutMillis__c: '60000.0'
+    Apttus__MergeWebserviceEndpoint__c: https://mergeserver.apttus.net/cgi-bin/MergeServer/Bin/MMCGI.exe
+    Apttus__PDFOwnerPwd__c: ''
+    Apttus__PublishMergeEvents__c: 'false'
+    Apttus_CMConfig__SyncBundleUsingLineItems__c: 'true'
+    Apttus_CMConfig__SyncOptionProducts__c: 'true'
+- Apttus_Config2__ConfigConstraintCriteriaFields__c:
+  - Name: seq_0
+    Apttus_Config2__FieldName__c: apttus_config2__attributevalueid__r.add_https_combined__c
+  - Name: seq_1
+    Apttus_Config2__FieldName__c: apttus_config2__attributevalueid__r.select_included_certificate__c
+  - Name: seq_2
+    Apttus_Config2__FieldName__c: apttus_config2__attributevalueid__r.z_secure_delivery__c
+  - Name: seq_3
+    Apttus_Config2__FieldName__c: apttus_config2__attributevalueid__r.included_tokens__c
+  - Name: seq_4
+    Apttus_Config2__FieldName__c: apttus_config2__attributevalueid__r.sites__c
+  - Name: seq_5
+    Apttus_Config2__FieldName__c: apttus_config2__attributevalueid__r.additional_millions_of_log_lines__c
+  - Name: seq_6
+    Apttus_Config2__FieldName__c: apttus_config2__attributevalueid__r.delivery__c
+  - Name: seq_7
+    Apttus_Config2__FieldName__c: apttus_config2__attributevalueid__r.select_included_certificate_nodependency__c
+- Apttus_Config2__ConfigCustomClasses__c:
+  - Name: System Properties
+    Apttus_Config2__ActionInvokerCallbackClass__c: ''
+    Apttus_Config2__ActionParamsCallbackClass__c: ''
+    Apttus_Config2__AdjustmentLineItemCallbackClass__c: ''
+    Apttus_Config2__AdvancedApprovalCallbackClass__c: ''
+    Apttus_Config2__AssetLineItemCallbackClass__c: APTPS_CustomAssetLineItemCallback
+    Apttus_Config2__CartApprovalCallbackClass__c: ''
+    Apttus_Config2__DealOptimizerCallbackClass__c: ''
+    Apttus_Config2__FormulaCallbackClass__c: ''
+    Apttus_Config2__PricingCallbackClass__c: APTPS_CustomPricingCallback
+    Apttus_Config2__ProductAttributeCallbackClass__c: ''
+    Apttus_Config2__RelatedPricingCallbackClass__c: ''
+    Apttus_Config2__ValidationCallbackClass__c: AptsValidateLinesCallback
+- Apttus_Config2__ConfigCustomDisplayActions__c:
+  - Name: Cart Line Item 6
+    Apttus_Config2__ActionLabelName__c: Save
+    Apttus_Config2__ActionName__c: Save
+    Apttus_Config2__ActionPage__c: ''
+    Apttus_Config2__ActionParams__c: ''
+    Apttus_Config2__ActionType__c: ''
+    Apttus_Config2__Behavior__c: ''
+    Apttus_Config2__DisplayType__c: Cart Line Item
+    Apttus_Config2__IsEnabled__c: 'true'
+    Apttus_Config2__Sequence__c: '6.0'
+  - Name: Cart Line Item 7
+    Apttus_Config2__ActionLabelName__c: QuickSave
+    Apttus_Config2__ActionName__c: QuickSave
+    Apttus_Config2__ActionPage__c: ''
+    Apttus_Config2__ActionParams__c: ''
+    Apttus_Config2__ActionType__c: ''
+    Apttus_Config2__Behavior__c: ''
+    Apttus_Config2__DisplayType__c: Cart Line Item
+    Apttus_Config2__IsEnabled__c: 'false'
+    Apttus_Config2__Sequence__c: '7.0'
+  - Name: Asset Line Item 6
+    Apttus_Config2__ActionLabelName__c: Terminate
+    Apttus_Config2__ActionName__c: Terminate
+    Apttus_Config2__ActionPage__c: ''
+    Apttus_Config2__ActionParams__c: ''
+    Apttus_Config2__ActionType__c: ''
+    Apttus_Config2__Behavior__c: ''
+    Apttus_Config2__DisplayType__c: Asset Line Item
+    Apttus_Config2__IsEnabled__c: 'true'
+    Apttus_Config2__Sequence__c: '6.0'
+  - Name: Asset Line Item 7
+    Apttus_Config2__ActionLabelName__c: UpdatePrice
+    Apttus_Config2__ActionName__c: UpdatePrice
+    Apttus_Config2__ActionPage__c: ''
+    Apttus_Config2__ActionParams__c: ''
+    Apttus_Config2__ActionType__c: ''
+    Apttus_Config2__Behavior__c: ''
+    Apttus_Config2__DisplayType__c: Asset Line Item
+    Apttus_Config2__IsEnabled__c: 'false'
+    Apttus_Config2__Sequence__c: '7.0'
+  - Name: Asset Line Item 8
+    Apttus_Config2__ActionLabelName__c: Finalize
+    Apttus_Config2__ActionName__c: Finalize
+    Apttus_Config2__ActionPage__c: ''
+    Apttus_Config2__ActionParams__c: ''
+    Apttus_Config2__ActionType__c: ''
+    Apttus_Config2__Behavior__c: ''
+    Apttus_Config2__DisplayType__c: Asset Line Item
+    Apttus_Config2__IsEnabled__c: 'false'
+    Apttus_Config2__Sequence__c: '8.0'
+  - Name: Asset Line Item 9
+    Apttus_Config2__ActionLabelName__c: ''
+    Apttus_Config2__ActionName__c: CustomAction1
+    Apttus_Config2__ActionPage__c: ''
+    Apttus_Config2__ActionParams__c: ''
+    Apttus_Config2__ActionType__c: ''
+    Apttus_Config2__Behavior__c: Self
+    Apttus_Config2__DisplayType__c: Asset Line Item
+    Apttus_Config2__IsEnabled__c: 'false'
+    Apttus_Config2__Sequence__c: '9.0'
+  - Name: Asset Line Item 10
+    Apttus_Config2__ActionLabelName__c: ''
+    Apttus_Config2__ActionName__c: CustomAction2
+    Apttus_Config2__ActionPage__c: ''
+    Apttus_Config2__ActionParams__c: ''
+    Apttus_Config2__ActionType__c: ''
+    Apttus_Config2__Behavior__c: Self
+    Apttus_Config2__DisplayType__c: Asset Line Item
+    Apttus_Config2__IsEnabled__c: 'false'
+    Apttus_Config2__Sequence__c: '10.0'
+  - Name: Asset Line Item 11
+    Apttus_Config2__ActionLabelName__c: ''
+    Apttus_Config2__ActionName__c: CustomAction3
+    Apttus_Config2__ActionPage__c: ''
+    Apttus_Config2__ActionParams__c: ''
+    Apttus_Config2__ActionType__c: ''
+    Apttus_Config2__Behavior__c: Self
+    Apttus_Config2__DisplayType__c: Asset Line Item
+    Apttus_Config2__IsEnabled__c: 'false'
+    Apttus_Config2__Sequence__c: '11.0'
+  - Name: Asset Line Item 12
+    Apttus_Config2__ActionLabelName__c: ''
+    Apttus_Config2__ActionName__c: CustomAction4
+    Apttus_Config2__ActionPage__c: ''
+    Apttus_Config2__ActionParams__c: ''
+    Apttus_Config2__ActionType__c: ''
+    Apttus_Config2__Behavior__c: Self
+    Apttus_Config2__DisplayType__c: Asset Line Item
+    Apttus_Config2__IsEnabled__c: 'false'
+    Apttus_Config2__Sequence__c: '12.0'
+  - Name: Asset Line Item 13
+    Apttus_Config2__ActionLabelName__c: ''
+    Apttus_Config2__ActionName__c: CustomAction5
+    Apttus_Config2__ActionPage__c: ''
+    Apttus_Config2__ActionParams__c: ''
+    Apttus_Config2__ActionType__c: ''
+    Apttus_Config2__Behavior__c: Self
+    Apttus_Config2__DisplayType__c: Asset Line Item
+    Apttus_Config2__IsEnabled__c: 'false'
+    Apttus_Config2__Sequence__c: '13.0'
+  - Name: Bundle Line Item 11
+    Apttus_Config2__ActionLabelName__c: ''
+    Apttus_Config2__ActionName__c: CustomAction4
+    Apttus_Config2__ActionPage__c: ''
+    Apttus_Config2__ActionParams__c: ''
+    Apttus_Config2__ActionType__c: ''
+    Apttus_Config2__Behavior__c: ''
+    Apttus_Config2__DisplayType__c: Bundle Line Item
+    Apttus_Config2__IsEnabled__c: 'false'
+    Apttus_Config2__Sequence__c: '11.0'
+  - Name: Bundle Line Item 12
+    Apttus_Config2__ActionLabelName__c: ''
+    Apttus_Config2__ActionName__c: CustomAction5
+    Apttus_Config2__ActionPage__c: ''
+    Apttus_Config2__ActionParams__c: ''
+    Apttus_Config2__ActionType__c: ''
+    Apttus_Config2__Behavior__c: ''
+    Apttus_Config2__DisplayType__c: Bundle Line Item
+    Apttus_Config2__IsEnabled__c: 'false'
+    Apttus_Config2__Sequence__c: '12.0'
+  - Name: Catalog Item 1
+    Apttus_Config2__ActionLabelName__c: InstalledProducts
+    Apttus_Config2__ActionName__c: InstalledProducts
+    Apttus_Config2__ActionPage__c: ''
+    Apttus_Config2__ActionParams__c: ''
+    Apttus_Config2__ActionType__c: ''
+    Apttus_Config2__Behavior__c: ''
+    Apttus_Config2__DisplayType__c: Catalog Item
+    Apttus_Config2__IsEnabled__c: 'true'
+    Apttus_Config2__Sequence__c: '1.0'
+  - Name: Catalog Item 2
+    Apttus_Config2__ActionLabelName__c: CompareProducts
+    Apttus_Config2__ActionName__c: CompareProducts
+    Apttus_Config2__ActionPage__c: ''
+    Apttus_Config2__ActionParams__c: ''
+    Apttus_Config2__ActionType__c: ''
+    Apttus_Config2__Behavior__c: ''
+    Apttus_Config2__DisplayType__c: Catalog Item
+    Apttus_Config2__IsEnabled__c: 'true'
+    Apttus_Config2__Sequence__c: '2.0'
+  - Name: Catalog Item 3
+    Apttus_Config2__ActionLabelName__c: Finalize
+    Apttus_Config2__ActionName__c: Finalize
+    Apttus_Config2__ActionPage__c: ''
+    Apttus_Config2__ActionParams__c: ''
+    Apttus_Config2__ActionType__c: ''
+    Apttus_Config2__Behavior__c: ''
+    Apttus_Config2__DisplayType__c: Catalog Item
+    Apttus_Config2__IsEnabled__c: 'true'
+    Apttus_Config2__Sequence__c: '3.0'
+  - Name: Catalog Item 4
+    Apttus_Config2__ActionLabelName__c: GoToPricing
+    Apttus_Config2__ActionName__c: GoToPricing
+    Apttus_Config2__ActionPage__c: ''
+    Apttus_Config2__ActionParams__c: ''
+    Apttus_Config2__ActionType__c: ''
+    Apttus_Config2__Behavior__c: ''
+    Apttus_Config2__DisplayType__c: Catalog Item
+    Apttus_Config2__IsEnabled__c: 'true'
+    Apttus_Config2__Sequence__c: '4.0'
+  - Name: Catalog Item 5
+    Apttus_Config2__ActionLabelName__c: UpdatePrice
+    Apttus_Config2__ActionName__c: UpdatePrice
+    Apttus_Config2__ActionPage__c: ''
+    Apttus_Config2__ActionParams__c: ''
+    Apttus_Config2__ActionType__c: ''
+    Apttus_Config2__Behavior__c: ''
+    Apttus_Config2__DisplayType__c: Catalog Item
+    Apttus_Config2__IsEnabled__c: 'false'
+    Apttus_Config2__Sequence__c: '5.0'
+  - Name: Catalog Item 6
+    Apttus_Config2__ActionLabelName__c: ''
+    Apttus_Config2__ActionName__c: CustomAction1
+    Apttus_Config2__ActionPage__c: ''
+    Apttus_Config2__ActionParams__c: ''
+    Apttus_Config2__ActionType__c: ''
+    Apttus_Config2__Behavior__c: Self
+    Apttus_Config2__DisplayType__c: Catalog Item
+    Apttus_Config2__IsEnabled__c: 'false'
+    Apttus_Config2__Sequence__c: '6.0'
+  - Name: Catalog Item 7
+    Apttus_Config2__ActionLabelName__c: ''
+    Apttus_Config2__ActionName__c: CustomAction2
+    Apttus_Config2__ActionPage__c: ''
+    Apttus_Config2__ActionParams__c: ''
+    Apttus_Config2__ActionType__c: ''
+    Apttus_Config2__Behavior__c: Self
+    Apttus_Config2__DisplayType__c: Catalog Item
+    Apttus_Config2__IsEnabled__c: 'false'
+    Apttus_Config2__Sequence__c: '7.0'
+  - Name: Catalog Item 8
+    Apttus_Config2__ActionLabelName__c: ''
+    Apttus_Config2__ActionName__c: CustomAction3
+    Apttus_Config2__ActionPage__c: ''
+    Apttus_Config2__ActionParams__c: ''
+    Apttus_Config2__ActionType__c: ''
+    Apttus_Config2__Behavior__c: Self
+    Apttus_Config2__DisplayType__c: Catalog Item
+    Apttus_Config2__IsEnabled__c: 'false'
+    Apttus_Config2__Sequence__c: '8.0'
+  - Name: Cart Line Item 17
+    Apttus_Config2__ActionLabelName__c: ''
+    Apttus_Config2__ActionName__c: CustomAction4
+    Apttus_Config2__ActionPage__c: ''
+    Apttus_Config2__ActionParams__c: ''
+    Apttus_Config2__ActionType__c: ''
+    Apttus_Config2__Behavior__c: Self
+    Apttus_Config2__DisplayType__c: Cart Line Item
+    Apttus_Config2__IsEnabled__c: 'false'
+    Apttus_Config2__Sequence__c: '17.0'
+  - Name: Cart Line Item 18
+    Apttus_Config2__ActionLabelName__c: ''
+    Apttus_Config2__ActionName__c: CustomAction5
+    Apttus_Config2__ActionPage__c: ''
+    Apttus_Config2__ActionParams__c: ''
+    Apttus_Config2__ActionType__c: ''
+    Apttus_Config2__Behavior__c: Self
+    Apttus_Config2__DisplayType__c: Cart Line Item
+    Apttus_Config2__IsEnabled__c: 'false'
+    Apttus_Config2__Sequence__c: '18.0'
+  - Name: Asset Line Item 1
+    Apttus_Config2__ActionLabelName__c: CatalogProducts
+    Apttus_Config2__ActionName__c: CatalogProducts
+    Apttus_Config2__ActionPage__c: ''
+    Apttus_Config2__ActionParams__c: ''
+    Apttus_Config2__ActionType__c: ''
+    Apttus_Config2__Behavior__c: ''
+    Apttus_Config2__DisplayType__c: Asset Line Item
+    Apttus_Config2__IsEnabled__c: 'true'
+    Apttus_Config2__Sequence__c: '1.0'
+  - Name: Asset Line Item 2
+    Apttus_Config2__ActionLabelName__c: GoToPricing
+    Apttus_Config2__ActionName__c: GoToPricing
+    Apttus_Config2__ActionPage__c: ''
+    Apttus_Config2__ActionParams__c: ''
+    Apttus_Config2__ActionType__c: ''
+    Apttus_Config2__Behavior__c: ''
+    Apttus_Config2__DisplayType__c: Asset Line Item
+    Apttus_Config2__IsEnabled__c: 'true'
+    Apttus_Config2__Sequence__c: '2.0'
+  - Name: Asset Line Item 3
+    Apttus_Config2__ActionLabelName__c: Increment
+    Apttus_Config2__ActionName__c: Increment
+    Apttus_Config2__ActionPage__c: ''
+    Apttus_Config2__ActionParams__c: ''
+    Apttus_Config2__ActionType__c: ''
+    Apttus_Config2__Behavior__c: ''
+    Apttus_Config2__DisplayType__c: Asset Line Item
+    Apttus_Config2__IsEnabled__c: 'false'
+    Apttus_Config2__Sequence__c: '3.0'
+  - Name: Asset Line Item 4
+    Apttus_Config2__ActionLabelName__c: Amend
+    Apttus_Config2__ActionName__c: Amend
+    Apttus_Config2__ActionPage__c: ''
+    Apttus_Config2__ActionParams__c: ''
+    Apttus_Config2__ActionType__c: ''
+    Apttus_Config2__Behavior__c: ''
+    Apttus_Config2__DisplayType__c: Asset Line Item
+    Apttus_Config2__IsEnabled__c: 'true'
+    Apttus_Config2__Sequence__c: '4.0'
+  - Name: Bundle Line Item 1
+    Apttus_Config2__ActionLabelName__c: RemoveItem
+    Apttus_Config2__ActionName__c: RemoveItem
+    Apttus_Config2__ActionPage__c: ''
+    Apttus_Config2__ActionParams__c: ''
+    Apttus_Config2__ActionType__c: ''
+    Apttus_Config2__Behavior__c: ''
+    Apttus_Config2__DisplayType__c: Bundle Line Item
+    Apttus_Config2__IsEnabled__c: 'true'
+    Apttus_Config2__Sequence__c: '1.0'
+  - Name: Bundle Line Item 2
+    Apttus_Config2__ActionLabelName__c: InstalledProducts
+    Apttus_Config2__ActionName__c: InstalledProducts
+    Apttus_Config2__ActionPage__c: ''
+    Apttus_Config2__ActionParams__c: ''
+    Apttus_Config2__ActionType__c: ''
+    Apttus_Config2__Behavior__c: ''
+    Apttus_Config2__DisplayType__c: Bundle Line Item
+    Apttus_Config2__IsEnabled__c: 'true'
+    Apttus_Config2__Sequence__c: '2.0'
+  - Name: Cart Line Item 8
+    Apttus_Config2__ActionLabelName__c: SaveAndReload
+    Apttus_Config2__ActionName__c: SaveAndReload
+    Apttus_Config2__ActionPage__c: ''
+    Apttus_Config2__ActionParams__c: ''
+    Apttus_Config2__ActionType__c: ''
+    Apttus_Config2__Behavior__c: ''
+    Apttus_Config2__DisplayType__c: Cart Line Item
+    Apttus_Config2__IsEnabled__c: 'false'
+    Apttus_Config2__Sequence__c: '8.0'
+  - Name: Cart Line Item 9
+    Apttus_Config2__ActionLabelName__c: SubmitForApproval
+    Apttus_Config2__ActionName__c: SubmitForApproval
+    Apttus_Config2__ActionPage__c: ''
+    Apttus_Config2__ActionParams__c: ''
+    Apttus_Config2__ActionType__c: ''
+    Apttus_Config2__Behavior__c: ''
+    Apttus_Config2__DisplayType__c: Cart Line Item
+    Apttus_Config2__IsEnabled__c: 'true'
+    Apttus_Config2__Sequence__c: '9.0'
+  - Name: Cart Line Item 10
+    Apttus_Config2__ActionLabelName__c: GenerateDocument
+    Apttus_Config2__ActionName__c: GenerateDocument
+    Apttus_Config2__ActionPage__c: ''
+    Apttus_Config2__ActionParams__c: ''
+    Apttus_Config2__ActionType__c: ''
+    Apttus_Config2__Behavior__c: ''
+    Apttus_Config2__DisplayType__c: Cart Line Item
+    Apttus_Config2__IsEnabled__c: 'true'
+    Apttus_Config2__Sequence__c: '10.0'
+  - Name: Cart Line Item 11
+    Apttus_Config2__ActionLabelName__c: ReviewAndFinalize
+    Apttus_Config2__ActionName__c: ReviewAndFinalize
+    Apttus_Config2__ActionPage__c: ''
+    Apttus_Config2__ActionParams__c: ''
+    Apttus_Config2__ActionType__c: ''
+    Apttus_Config2__Behavior__c: ''
+    Apttus_Config2__DisplayType__c: Cart Line Item
+    Apttus_Config2__IsEnabled__c: 'false'
+    Apttus_Config2__Sequence__c: '11.0'
+  - Name: Cart Line Item 12
+    Apttus_Config2__ActionLabelName__c: Finalize
+    Apttus_Config2__ActionName__c: Finalize
+    Apttus_Config2__ActionPage__c: ''
+    Apttus_Config2__ActionParams__c: ''
+    Apttus_Config2__ActionType__c: ''
+    Apttus_Config2__Behavior__c: ''
+    Apttus_Config2__DisplayType__c: Cart Line Item
+    Apttus_Config2__IsEnabled__c: 'false'
+    Apttus_Config2__Sequence__c: '12.0'
+  - Name: Cart Line Item 13
+    Apttus_Config2__ActionLabelName__c: EditPriceAgreement
+    Apttus_Config2__ActionName__c: EditPriceAgreement
+    Apttus_Config2__ActionPage__c: ''
+    Apttus_Config2__ActionParams__c: ''
+    Apttus_Config2__ActionType__c: ''
+    Apttus_Config2__Behavior__c: ''
+    Apttus_Config2__DisplayType__c: Cart Line Item
+    Apttus_Config2__IsEnabled__c: 'false'
+    Apttus_Config2__Sequence__c: '13.0'
+  - Name: Cart Line Item 14
+    Apttus_Config2__ActionLabelName__c: SubmitforApproval2
+    Apttus_Config2__ActionName__c: CustomAction1
+    Apttus_Config2__ActionPage__c: Apts_CartApproval
+    Apttus_Config2__ActionParams__c: ''
+    Apttus_Config2__ActionType__c: SubmitApproval
+    Apttus_Config2__Behavior__c: _blank
+    Apttus_Config2__DisplayType__c: Cart Line Item
+    Apttus_Config2__IsEnabled__c: 'true'
+    Apttus_Config2__Sequence__c: '14.0'
+  - Name: Cart Line Item 15
+    Apttus_Config2__ActionLabelName__c: ''
+    Apttus_Config2__ActionName__c: CustomAction2
+    Apttus_Config2__ActionPage__c: ''
+    Apttus_Config2__ActionParams__c: ''
+    Apttus_Config2__ActionType__c: ''
+    Apttus_Config2__Behavior__c: Self
+    Apttus_Config2__DisplayType__c: Cart Line Item
+    Apttus_Config2__IsEnabled__c: 'false'
+    Apttus_Config2__Sequence__c: '15.0'
+  - Name: Catalog Item 9
+    Apttus_Config2__ActionLabelName__c: ''
+    Apttus_Config2__ActionName__c: CustomAction4
+    Apttus_Config2__ActionPage__c: ''
+    Apttus_Config2__ActionParams__c: ''
+    Apttus_Config2__ActionType__c: ''
+    Apttus_Config2__Behavior__c: Self
+    Apttus_Config2__DisplayType__c: Catalog Item
+    Apttus_Config2__IsEnabled__c: 'false'
+    Apttus_Config2__Sequence__c: '9.0'
+  - Name: Catalog Item 10
+    Apttus_Config2__ActionLabelName__c: ''
+    Apttus_Config2__ActionName__c: CustomAction5
+    Apttus_Config2__ActionPage__c: ''
+    Apttus_Config2__ActionParams__c: ''
+    Apttus_Config2__ActionType__c: ''
+    Apttus_Config2__Behavior__c: Self
+    Apttus_Config2__DisplayType__c: Catalog Item
+    Apttus_Config2__IsEnabled__c: 'false'
+    Apttus_Config2__Sequence__c: '10.0'
+  - Name: Attribute Item 1
+    Apttus_Config2__ActionLabelName__c: AddMoreProducts
+    Apttus_Config2__ActionName__c: AddMoreProducts
+    Apttus_Config2__ActionPage__c: ''
+    Apttus_Config2__ActionParams__c: ''
+    Apttus_Config2__ActionType__c: ''
+    Apttus_Config2__Behavior__c: ''
+    Apttus_Config2__DisplayType__c: Attribute Item
+    Apttus_Config2__IsEnabled__c: 'true'
+    Apttus_Config2__Sequence__c: '1.0'
+  - Name: Attribute Item 2
+    Apttus_Config2__ActionLabelName__c: InstalledProducts
+    Apttus_Config2__ActionName__c: InstalledProducts
+    Apttus_Config2__ActionPage__c: ''
+    Apttus_Config2__ActionParams__c: ''
+    Apttus_Config2__ActionType__c: ''
+    Apttus_Config2__Behavior__c: ''
+    Apttus_Config2__DisplayType__c: Attribute Item
+    Apttus_Config2__IsEnabled__c: 'false'
+    Apttus_Config2__Sequence__c: '2.0'
+  - Name: Attribute Item 3
+    Apttus_Config2__ActionLabelName__c: RemoveItem
+    Apttus_Config2__ActionName__c: RemoveItem
+    Apttus_Config2__ActionPage__c: ''
+    Apttus_Config2__ActionParams__c: ''
+    Apttus_Config2__ActionType__c: ''
+    Apttus_Config2__Behavior__c: ''
+    Apttus_Config2__DisplayType__c: Attribute Item
+    Apttus_Config2__IsEnabled__c: 'true'
+    Apttus_Config2__Sequence__c: '3.0'
+  - Name: Attribute Item 4
+    Apttus_Config2__ActionLabelName__c: BackToPricing
+    Apttus_Config2__ActionName__c: BackToPricing
+    Apttus_Config2__ActionPage__c: ''
+    Apttus_Config2__ActionParams__c: ''
+    Apttus_Config2__ActionType__c: ''
+    Apttus_Config2__Behavior__c: ''
+    Apttus_Config2__DisplayType__c: Attribute Item
+    Apttus_Config2__IsEnabled__c: 'true'
+    Apttus_Config2__Sequence__c: '4.0'
+  - Name: Attribute Item 5
+    Apttus_Config2__ActionLabelName__c: Next
+    Apttus_Config2__ActionName__c: Next
+    Apttus_Config2__ActionPage__c: ''
+    Apttus_Config2__ActionParams__c: ''
+    Apttus_Config2__ActionType__c: ''
+    Apttus_Config2__Behavior__c: ''
+    Apttus_Config2__DisplayType__c: Attribute Item
+    Apttus_Config2__IsEnabled__c: 'true'
+    Apttus_Config2__Sequence__c: '5.0'
+  - Name: Attribute Item 6
+    Apttus_Config2__ActionLabelName__c: GoToPricing
+    Apttus_Config2__ActionName__c: GoToPricing
+    Apttus_Config2__ActionPage__c: ''
+    Apttus_Config2__ActionParams__c: ''
+    Apttus_Config2__ActionType__c: ''
+    Apttus_Config2__Behavior__c: ''
+    Apttus_Config2__DisplayType__c: Attribute Item
+    Apttus_Config2__IsEnabled__c: 'true'
+    Apttus_Config2__Sequence__c: '6.0'
+  - Name: Attribute Item 7
+    Apttus_Config2__ActionLabelName__c: UpdatePrice
+    Apttus_Config2__ActionName__c: UpdatePrice
+    Apttus_Config2__ActionPage__c: ''
+    Apttus_Config2__ActionParams__c: ''
+    Apttus_Config2__ActionType__c: ''
+    Apttus_Config2__Behavior__c: ''
+    Apttus_Config2__DisplayType__c: Attribute Item
+    Apttus_Config2__IsEnabled__c: 'true'
+    Apttus_Config2__Sequence__c: '7.0'
+  - Name: Attribute Item 8
+    Apttus_Config2__ActionLabelName__c: ''
+    Apttus_Config2__ActionName__c: CustomAction1
+    Apttus_Config2__ActionPage__c: ''
+    Apttus_Config2__ActionParams__c: ''
+    Apttus_Config2__ActionType__c: ''
+    Apttus_Config2__Behavior__c: ''
+    Apttus_Config2__DisplayType__c: Attribute Item
+    Apttus_Config2__IsEnabled__c: 'false'
+    Apttus_Config2__Sequence__c: '8.0'
+  - Name: Attribute Item 9
+    Apttus_Config2__ActionLabelName__c: ''
+    Apttus_Config2__ActionName__c: CustomAction2
+    Apttus_Config2__ActionPage__c: ''
+    Apttus_Config2__ActionParams__c: ''
+    Apttus_Config2__ActionType__c: ''
+    Apttus_Config2__Behavior__c: ''
+    Apttus_Config2__DisplayType__c: Attribute Item
+    Apttus_Config2__IsEnabled__c: 'false'
+    Apttus_Config2__Sequence__c: '9.0'
+  - Name: Attribute Item 10
+    Apttus_Config2__ActionLabelName__c: ''
+    Apttus_Config2__ActionName__c: CustomAction3
+    Apttus_Config2__ActionPage__c: ''
+    Apttus_Config2__ActionParams__c: ''
+    Apttus_Config2__ActionType__c: ''
+    Apttus_Config2__Behavior__c: ''
+    Apttus_Config2__DisplayType__c: Attribute Item
+    Apttus_Config2__IsEnabled__c: 'false'
+    Apttus_Config2__Sequence__c: '10.0'
+  - Name: Cart Line Item 16
+    Apttus_Config2__ActionLabelName__c: ''
+    Apttus_Config2__ActionName__c: CustomAction3
+    Apttus_Config2__ActionPage__c: ''
+    Apttus_Config2__ActionParams__c: ''
+    Apttus_Config2__ActionType__c: ''
+    Apttus_Config2__Behavior__c: Self
+    Apttus_Config2__DisplayType__c: Cart Line Item
+    Apttus_Config2__IsEnabled__c: 'false'
+    Apttus_Config2__Sequence__c: '16.0'
+  - Name: Bundle Line Item 3
+    Apttus_Config2__ActionLabelName__c: AddMoreProducts
+    Apttus_Config2__ActionName__c: AddMoreProducts
+    Apttus_Config2__ActionPage__c: ''
+    Apttus_Config2__ActionParams__c: ''
+    Apttus_Config2__ActionType__c: ''
+    Apttus_Config2__Behavior__c: ''
+    Apttus_Config2__DisplayType__c: Bundle Line Item
+    Apttus_Config2__IsEnabled__c: 'true'
+    Apttus_Config2__Sequence__c: '3.0'
+  - Name: Bundle Line Item 4
+    Apttus_Config2__ActionLabelName__c: BackToDetail
+    Apttus_Config2__ActionName__c: BackToDetail
+    Apttus_Config2__ActionPage__c: ''
+    Apttus_Config2__ActionParams__c: ''
+    Apttus_Config2__ActionType__c: ''
+    Apttus_Config2__Behavior__c: ''
+    Apttus_Config2__DisplayType__c: Bundle Line Item
+    Apttus_Config2__IsEnabled__c: 'true'
+    Apttus_Config2__Sequence__c: '4.0'
+  - Name: Bundle Line Item 5
+    Apttus_Config2__ActionLabelName__c: GoToPricing
+    Apttus_Config2__ActionName__c: GoToPricing
+    Apttus_Config2__ActionPage__c: ''
+    Apttus_Config2__ActionParams__c: ''
+    Apttus_Config2__ActionType__c: ''
+    Apttus_Config2__Behavior__c: ''
+    Apttus_Config2__DisplayType__c: Bundle Line Item
+    Apttus_Config2__IsEnabled__c: 'true'
+    Apttus_Config2__Sequence__c: '5.0'
+  - Name: Bundle Line Item 6
+    Apttus_Config2__ActionLabelName__c: UpdatePrice
+    Apttus_Config2__ActionName__c: UpdatePrice
+    Apttus_Config2__ActionPage__c: ''
+    Apttus_Config2__ActionParams__c: ''
+    Apttus_Config2__ActionType__c: ''
+    Apttus_Config2__Behavior__c: ''
+    Apttus_Config2__DisplayType__c: Bundle Line Item
+    Apttus_Config2__IsEnabled__c: 'true'
+    Apttus_Config2__Sequence__c: '6.0'
+  - Name: Bundle Line Item 7
+    Apttus_Config2__ActionLabelName__c: Finalize
+    Apttus_Config2__ActionName__c: Finalize
+    Apttus_Config2__ActionPage__c: ''
+    Apttus_Config2__ActionParams__c: ''
+    Apttus_Config2__ActionType__c: ''
+    Apttus_Config2__Behavior__c: ''
+    Apttus_Config2__DisplayType__c: Bundle Line Item
+    Apttus_Config2__IsEnabled__c: 'true'
+    Apttus_Config2__Sequence__c: '7.0'
+  - Name: Bundle Line Item 8
+    Apttus_Config2__ActionLabelName__c: ''
+    Apttus_Config2__ActionName__c: CustomAction1
+    Apttus_Config2__ActionPage__c: ''
+    Apttus_Config2__ActionParams__c: ''
+    Apttus_Config2__ActionType__c: ''
+    Apttus_Config2__Behavior__c: ''
+    Apttus_Config2__DisplayType__c: Bundle Line Item
+    Apttus_Config2__IsEnabled__c: 'false'
+    Apttus_Config2__Sequence__c: '8.0'
+  - Name: Bundle Line Item 9
+    Apttus_Config2__ActionLabelName__c: ''
+    Apttus_Config2__ActionName__c: CustomAction2
+    Apttus_Config2__ActionPage__c: ''
+    Apttus_Config2__ActionParams__c: ''
+    Apttus_Config2__ActionType__c: ''
+    Apttus_Config2__Behavior__c: ''
+    Apttus_Config2__DisplayType__c: Bundle Line Item
+    Apttus_Config2__IsEnabled__c: 'false'
+    Apttus_Config2__Sequence__c: '9.0'
+  - Name: Bundle Line Item 10
+    Apttus_Config2__ActionLabelName__c: ''
+    Apttus_Config2__ActionName__c: CustomAction3
+    Apttus_Config2__ActionPage__c: ''
+    Apttus_Config2__ActionParams__c: ''
+    Apttus_Config2__ActionType__c: ''
+    Apttus_Config2__Behavior__c: ''
+    Apttus_Config2__DisplayType__c: Bundle Line Item
+    Apttus_Config2__IsEnabled__c: 'false'
+    Apttus_Config2__Sequence__c: '10.0'
+  - Name: Asset Line Item 5
+    Apttus_Config2__ActionLabelName__c: Renew
+    Apttus_Config2__ActionName__c: Renew
+    Apttus_Config2__ActionPage__c: ''
+    Apttus_Config2__ActionParams__c: ''
+    Apttus_Config2__ActionType__c: ''
+    Apttus_Config2__Behavior__c: ''
+    Apttus_Config2__DisplayType__c: Asset Line Item
+    Apttus_Config2__IsEnabled__c: 'true'
+    Apttus_Config2__Sequence__c: '5.0'
+  - Name: Attribute Item 11
+    Apttus_Config2__ActionLabelName__c: ''
+    Apttus_Config2__ActionName__c: CustomAction4
+    Apttus_Config2__ActionPage__c: ''
+    Apttus_Config2__ActionParams__c: ''
+    Apttus_Config2__ActionType__c: ''
+    Apttus_Config2__Behavior__c: ''
+    Apttus_Config2__DisplayType__c: Attribute Item
+    Apttus_Config2__IsEnabled__c: 'false'
+    Apttus_Config2__Sequence__c: '11.0'
+  - Name: Attribute Item 12
+    Apttus_Config2__ActionLabelName__c: ''
+    Apttus_Config2__ActionName__c: CustomAction5
+    Apttus_Config2__ActionPage__c: ''
+    Apttus_Config2__ActionParams__c: ''
+    Apttus_Config2__ActionType__c: ''
+    Apttus_Config2__Behavior__c: ''
+    Apttus_Config2__DisplayType__c: Attribute Item
+    Apttus_Config2__IsEnabled__c: 'false'
+    Apttus_Config2__Sequence__c: '12.0'
+  - Name: Cart Line Item 1
+    Apttus_Config2__ActionLabelName__c: InstalledProducts
+    Apttus_Config2__ActionName__c: InstalledProducts
+    Apttus_Config2__ActionPage__c: ''
+    Apttus_Config2__ActionParams__c: ''
+    Apttus_Config2__ActionType__c: ''
+    Apttus_Config2__Behavior__c: ''
+    Apttus_Config2__DisplayType__c: Cart Line Item
+    Apttus_Config2__IsEnabled__c: 'true'
+    Apttus_Config2__Sequence__c: '1.0'
+  - Name: Cart Line Item 2
+    Apttus_Config2__ActionLabelName__c: AddMiscellaneousItem
+    Apttus_Config2__ActionName__c: AddMiscellaneousItem
+    Apttus_Config2__ActionPage__c: ''
+    Apttus_Config2__ActionParams__c: ''
+    Apttus_Config2__ActionType__c: ''
+    Apttus_Config2__Behavior__c: ''
+    Apttus_Config2__DisplayType__c: Cart Line Item
+    Apttus_Config2__IsEnabled__c: 'true'
+    Apttus_Config2__Sequence__c: '2.0'
+  - Name: Cart Line Item 3
+    Apttus_Config2__ActionLabelName__c: AddMoreProducts
+    Apttus_Config2__ActionName__c: AddMoreProducts
+    Apttus_Config2__ActionPage__c: ''
+    Apttus_Config2__ActionParams__c: ''
+    Apttus_Config2__ActionType__c: ''
+    Apttus_Config2__Behavior__c: ''
+    Apttus_Config2__DisplayType__c: Cart Line Item
+    Apttus_Config2__IsEnabled__c: 'true'
+    Apttus_Config2__Sequence__c: '3.0'
+  - Name: Cart Line Item 4
+    Apttus_Config2__ActionLabelName__c: BackToPricing
+    Apttus_Config2__ActionName__c: BackToPricing
+    Apttus_Config2__ActionPage__c: ''
+    Apttus_Config2__ActionParams__c: ''
+    Apttus_Config2__ActionType__c: ''
+    Apttus_Config2__Behavior__c: ''
+    Apttus_Config2__DisplayType__c: Cart Line Item
+    Apttus_Config2__IsEnabled__c: 'true'
+    Apttus_Config2__Sequence__c: '4.0'
+  - Name: Cart Line Item 5
+    Apttus_Config2__ActionLabelName__c: Reprice
+    Apttus_Config2__ActionName__c: Reprice
+    Apttus_Config2__ActionPage__c: ''
+    Apttus_Config2__ActionParams__c: ''
+    Apttus_Config2__ActionType__c: ''
+    Apttus_Config2__Behavior__c: ''
+    Apttus_Config2__DisplayType__c: Cart Line Item
+    Apttus_Config2__IsEnabled__c: 'true'
+    Apttus_Config2__Sequence__c: '5.0'
+- Apttus_Config2__ConfigCustomDisplayColumns__c:
+  - Name: Cart Line Item 1
+    Apttus_Config2__DisplayType__c: Cart Line Item
+    Apttus_Config2__FieldName__c: Apttus_Config2__ProductId__c
+    Apttus_Config2__HeaderStyle__c: ''
+    Apttus_Config2__IsEditable__c: 'false'
+    Apttus_Config2__IsSortable__c: 'false'
+    Apttus_Config2__Sequence__c: '1.0'
+    Apttus_Config2__Style__c: ''
+    Apttus_Config2__StyleClass__c: ''
+  - Name: Cart Line Item 2
+    Apttus_Config2__DisplayType__c: Cart Line Item
+    Apttus_Config2__FieldName__c: Apttus_Config2__ChargeType__c
+    Apttus_Config2__HeaderStyle__c: ''
+    Apttus_Config2__IsEditable__c: 'false'
+    Apttus_Config2__IsSortable__c: 'false'
+    Apttus_Config2__Sequence__c: '2.0'
+    Apttus_Config2__Style__c: ''
+    Apttus_Config2__StyleClass__c: ''
+  - Name: Cart Line Item 3
+    Apttus_Config2__DisplayType__c: Cart Line Item
+    Apttus_Config2__FieldName__c: Apttus_Config2__Quantity__c
+    Apttus_Config2__HeaderStyle__c: ''
+    Apttus_Config2__IsEditable__c: 'true'
+    Apttus_Config2__IsSortable__c: 'false'
+    Apttus_Config2__Sequence__c: '3.0'
+    Apttus_Config2__Style__c: !binary |-
+      dGV4dC1hbGlnbjpyaWdodDsgd2lkdGg6NjBweDvigIs=
+    Apttus_Config2__StyleClass__c: aptQuantity
+  - Name: Cart Line Item 4
+    Apttus_Config2__DisplayType__c: Cart Line Item
+    Apttus_Config2__FieldName__c: Apttus_Config2__PriceUom__c
+    Apttus_Config2__HeaderStyle__c: ''
+    Apttus_Config2__IsEditable__c: 'false'
+    Apttus_Config2__IsSortable__c: 'false'
+    Apttus_Config2__Sequence__c: '4.0'
+    Apttus_Config2__Style__c: ''
+    Apttus_Config2__StyleClass__c: ''
+  - Name: Cart Line Item 5
+    Apttus_Config2__DisplayType__c: Cart Line Item
+    Apttus_Config2__FieldName__c: Unit_Price__c
+    Apttus_Config2__HeaderStyle__c: ''
+    Apttus_Config2__IsEditable__c: 'false'
+    Apttus_Config2__IsSortable__c: 'false'
+    Apttus_Config2__Sequence__c: '5.0'
+    Apttus_Config2__Style__c: !binary |-
+      dGV4dC1hbGlnbjpyaWdodDsgd2lkdGg6ODBweDvigIs=
+    Apttus_Config2__StyleClass__c: ''
+  - Name: Cart Line Item 6
+    Apttus_Config2__DisplayType__c: Cart Line Item
+    Apttus_Config2__FieldName__c: Apttus_Config2__NetPrice__c
+    Apttus_Config2__HeaderStyle__c: ''
+    Apttus_Config2__IsEditable__c: 'false'
+    Apttus_Config2__IsSortable__c: 'false'
+    Apttus_Config2__Sequence__c: '6.0'
+    Apttus_Config2__Style__c: !binary |-
+      dGV4dC1hbGlnbjpyaWdodDsgd2lkdGg6ODBweDvigIs=
+    Apttus_Config2__StyleClass__c: ''
+  - Name: Cart Line Item 7
+    Apttus_Config2__DisplayType__c: Cart Line Item
+    Apttus_Config2__FieldName__c: Apttus_Config2__AdjustmentType__c
+    Apttus_Config2__HeaderStyle__c: ''
+    Apttus_Config2__IsEditable__c: 'true'
+    Apttus_Config2__IsSortable__c: 'false'
+    Apttus_Config2__Sequence__c: '7.0'
+    Apttus_Config2__Style__c: !binary |-
+      dGV4dC1hbGlnbjpyaWdodDsgd2lkdGg6ODBweDvigIs=
+    Apttus_Config2__StyleClass__c: ''
+  - Name: Cart Line Item 8
+    Apttus_Config2__DisplayType__c: Cart Line Item
+    Apttus_Config2__FieldName__c: Apttus_Config2__AdjustmentAmount__c
+    Apttus_Config2__HeaderStyle__c: ''
+    Apttus_Config2__IsEditable__c: 'true'
+    Apttus_Config2__IsSortable__c: 'false'
+    Apttus_Config2__Sequence__c: '8.0'
+    Apttus_Config2__Style__c: !binary |-
+      dGV4dC1hbGlnbjpyaWdodDsgd2lkdGg6ODBweDvigIs=
+    Apttus_Config2__StyleClass__c: ''
+  - Name: Cart Line Item 9
+    Apttus_Config2__DisplayType__c: Cart Line Item
+    Apttus_Config2__FieldName__c: Apttus_Config2__StartDate__c
+    Apttus_Config2__HeaderStyle__c: ''
+    Apttus_Config2__IsEditable__c: 'true'
+    Apttus_Config2__IsSortable__c: 'false'
+    Apttus_Config2__Sequence__c: '9.0'
+    Apttus_Config2__Style__c: ''
+    Apttus_Config2__StyleClass__c: ''
+  - Name: Cart Line Item 10
+    Apttus_Config2__DisplayType__c: Cart Line Item
+    Apttus_Config2__FieldName__c: Apttus_Config2__EndDate__c
+    Apttus_Config2__HeaderStyle__c: ''
+    Apttus_Config2__IsEditable__c: 'true'
+    Apttus_Config2__IsSortable__c: 'false'
+    Apttus_Config2__Sequence__c: '10.0'
+    Apttus_Config2__Style__c: ''
+    Apttus_Config2__StyleClass__c: ''
+  - Name: Cart Line Item 11
+    Apttus_Config2__DisplayType__c: Cart Line Item
+    Apttus_Config2__FieldName__c: Akam_Payment_Type__c
+    Apttus_Config2__HeaderStyle__c: ''
+    Apttus_Config2__IsEditable__c: 'false'
+    Apttus_Config2__IsSortable__c: 'false'
+    Apttus_Config2__Sequence__c: '11.0'
+    Apttus_Config2__Style__c: ''
+    Apttus_Config2__StyleClass__c: ''
+  - Name: Cart Line Item 12
+    Apttus_Config2__DisplayType__c: Cart Line Item
+    Apttus_Config2__FieldName__c: PMI_Min_Price__c
+    Apttus_Config2__HeaderStyle__c: ''
+    Apttus_Config2__IsEditable__c: 'false'
+    Apttus_Config2__IsSortable__c: 'false'
+    Apttus_Config2__Sequence__c: '12.0'
+    Apttus_Config2__Style__c: !binary |-
+      dGV4dC1hbGlnbjpyaWdodDsgd2lkdGg6ODBweDvigIs=
+    Apttus_Config2__StyleClass__c: ''
+  - Name: Cart Line Item 13
+    Apttus_Config2__DisplayType__c: Cart Line Item
+    Apttus_Config2__FieldName__c: APTPS_Approval_Required_Indicator__c
+    Apttus_Config2__HeaderStyle__c: ''
+    Apttus_Config2__IsEditable__c: 'false'
+    Apttus_Config2__IsSortable__c: 'false'
+    Apttus_Config2__Sequence__c: '13.0'
+    Apttus_Config2__Style__c: ''
+    Apttus_Config2__StyleClass__c: ''
+  - Name: Cart Total Item 1
+    Apttus_Config2__DisplayType__c: Cart Total Item
+    Apttus_Config2__FieldName__c: Name
+    Apttus_Config2__HeaderStyle__c: ''
+    Apttus_Config2__IsEditable__c: 'false'
+    Apttus_Config2__IsSortable__c: 'false'
+    Apttus_Config2__Sequence__c: '1.0'
+    Apttus_Config2__Style__c: ''
+    Apttus_Config2__StyleClass__c: ''
+  - Name: Cart Total Item 2
+    Apttus_Config2__DisplayType__c: Cart Total Item
+    Apttus_Config2__FieldName__c: Apttus_Config2__ChargeType__c
+    Apttus_Config2__HeaderStyle__c: ''
+    Apttus_Config2__IsEditable__c: 'false'
+    Apttus_Config2__IsSortable__c: 'false'
+    Apttus_Config2__Sequence__c: '2.0'
+    Apttus_Config2__Style__c: ''
+    Apttus_Config2__StyleClass__c: ''
+  - Name: Cart Total Item 3
+    Apttus_Config2__DisplayType__c: Cart Total Item
+    Apttus_Config2__FieldName__c: Apttus_Config2__Frequency__c
+    Apttus_Config2__HeaderStyle__c: ''
+    Apttus_Config2__IsEditable__c: 'false'
+    Apttus_Config2__IsSortable__c: 'false'
+    Apttus_Config2__Sequence__c: '3.0'
+    Apttus_Config2__Style__c: ''
+    Apttus_Config2__StyleClass__c: ''
+  - Name: Cart Total Item 4
+    Apttus_Config2__DisplayType__c: Cart Total Item
+    Apttus_Config2__FieldName__c: Apttus_Config2__OptionPrice__c
+    Apttus_Config2__HeaderStyle__c: ''
+    Apttus_Config2__IsEditable__c: 'false'
+    Apttus_Config2__IsSortable__c: 'false'
+    Apttus_Config2__Sequence__c: '4.0'
+    Apttus_Config2__Style__c: text-align:right
+    Apttus_Config2__StyleClass__c: ''
+  - Name: Cart Total Item 5
+    Apttus_Config2__DisplayType__c: Cart Total Item
+    Apttus_Config2__FieldName__c: Apttus_Config2__AdjustmentType__c
+    Apttus_Config2__HeaderStyle__c: ''
+    Apttus_Config2__IsEditable__c: 'true'
+    Apttus_Config2__IsSortable__c: 'false'
+    Apttus_Config2__Sequence__c: '5.0'
+    Apttus_Config2__Style__c: ''
+    Apttus_Config2__StyleClass__c: ''
+  - Name: Cart Total Item 6
+    Apttus_Config2__DisplayType__c: Cart Total Item
+    Apttus_Config2__FieldName__c: Apttus_Config2__AdjustmentAmount__c
+    Apttus_Config2__HeaderStyle__c: ''
+    Apttus_Config2__IsEditable__c: 'true'
+    Apttus_Config2__IsSortable__c: 'false'
+    Apttus_Config2__Sequence__c: '6.0'
+    Apttus_Config2__Style__c: text-align:right
+    Apttus_Config2__StyleClass__c: ''
+  - Name: Cart Total Item 7
+    Apttus_Config2__DisplayType__c: Cart Total Item
+    Apttus_Config2__FieldName__c: Apttus_Config2__AdjustedPrice__c
+    Apttus_Config2__HeaderStyle__c: ''
+    Apttus_Config2__IsEditable__c: 'false'
+    Apttus_Config2__IsSortable__c: 'false'
+    Apttus_Config2__Sequence__c: '7.0'
+    Apttus_Config2__Style__c: text-align:right
+    Apttus_Config2__StyleClass__c: ''
+  - Name: Cart Total Item 8
+    Apttus_Config2__DisplayType__c: Cart Total Item
+    Apttus_Config2__FieldName__c: Apttus_Config2__NetPrice__c
+    Apttus_Config2__HeaderStyle__c: ''
+    Apttus_Config2__IsEditable__c: 'false'
+    Apttus_Config2__IsSortable__c: 'false'
+    Apttus_Config2__Sequence__c: '8.0'
+    Apttus_Config2__Style__c: text-align:right
+    Apttus_Config2__StyleClass__c: ''
+  - Name: Cart Total Item 9
+    Apttus_Config2__DisplayType__c: Cart Total Item
+    Apttus_Config2__FieldName__c: Apttus_Config2__NetAdjustmentPercent__c
+    Apttus_Config2__HeaderStyle__c: ''
+    Apttus_Config2__IsEditable__c: 'false'
+    Apttus_Config2__IsSortable__c: 'false'
+    Apttus_Config2__Sequence__c: '9.0'
+    Apttus_Config2__Style__c: ''
+    Apttus_Config2__StyleClass__c: aptPercentage
+  - Name: Asset Line Item 1
+    Apttus_Config2__DisplayType__c: Asset Line Item
+    Apttus_Config2__FieldName__c: Apttus_Config2__ProductId__c
+    Apttus_Config2__HeaderStyle__c: ''
+    Apttus_Config2__IsEditable__c: 'false'
+    Apttus_Config2__IsSortable__c: 'true'
+    Apttus_Config2__Sequence__c: '1.0'
+    Apttus_Config2__Style__c: ''
+    Apttus_Config2__StyleClass__c: ''
+  - Name: Asset Line Item 2
+    Apttus_Config2__DisplayType__c: Asset Line Item
+    Apttus_Config2__FieldName__c: Apttus_Config2__StartDate__c
+    Apttus_Config2__HeaderStyle__c: ''
+    Apttus_Config2__IsEditable__c: 'false'
+    Apttus_Config2__IsSortable__c: 'false'
+    Apttus_Config2__Sequence__c: '2.0'
+    Apttus_Config2__Style__c: ''
+    Apttus_Config2__StyleClass__c: ''
+  - Name: Asset Line Item 3
+    Apttus_Config2__DisplayType__c: Asset Line Item
+    Apttus_Config2__FieldName__c: Apttus_Config2__EndDate__c
+    Apttus_Config2__HeaderStyle__c: ''
+    Apttus_Config2__IsEditable__c: 'false'
+    Apttus_Config2__IsSortable__c: 'false'
+    Apttus_Config2__Sequence__c: '3.0'
+    Apttus_Config2__Style__c: ''
+    Apttus_Config2__StyleClass__c: ''
+  - Name: Asset Line Item 4
+    Apttus_Config2__DisplayType__c: Asset Line Item
+    Apttus_Config2__FieldName__c: Apttus_Config2__PriceUom__c
+    Apttus_Config2__HeaderStyle__c: ''
+    Apttus_Config2__IsEditable__c: 'false'
+    Apttus_Config2__IsSortable__c: 'false'
+    Apttus_Config2__Sequence__c: '4.0'
+    Apttus_Config2__Style__c: ''
+    Apttus_Config2__StyleClass__c: ''
+  - Name: Asset Line Item 5
+    Apttus_Config2__DisplayType__c: Asset Line Item
+    Apttus_Config2__FieldName__c: Apttus_Config2__SellingFrequency__c
+    Apttus_Config2__HeaderStyle__c: ''
+    Apttus_Config2__IsEditable__c: 'false'
+    Apttus_Config2__IsSortable__c: 'false'
+    Apttus_Config2__Sequence__c: '5.0'
+    Apttus_Config2__Style__c: ''
+    Apttus_Config2__StyleClass__c: ''
+  - Name: Asset Line Item 6
+    Apttus_Config2__DisplayType__c: Asset Line Item
+    Apttus_Config2__FieldName__c: Apttus_Config2__ChargeType__c
+    Apttus_Config2__HeaderStyle__c: ''
+    Apttus_Config2__IsEditable__c: 'false'
+    Apttus_Config2__IsSortable__c: 'false'
+    Apttus_Config2__Sequence__c: '6.0'
+    Apttus_Config2__Style__c: ''
+    Apttus_Config2__StyleClass__c: ''
+  - Name: Asset Line Item 7
+    Apttus_Config2__DisplayType__c: Asset Line Item
+    Apttus_Config2__FieldName__c: Apttus_Config2__Quantity__c
+    Apttus_Config2__HeaderStyle__c: ''
+    Apttus_Config2__IsEditable__c: 'false'
+    Apttus_Config2__IsSortable__c: 'false'
+    Apttus_Config2__Sequence__c: '7.0'
+    Apttus_Config2__Style__c: !binary |-
+      dGV4dC1hbGlnbjpyaWdodDsgd2lkdGg6NjBweDvigIs=
+    Apttus_Config2__StyleClass__c: aptQuantity
+  - Name: Asset Line Item 8
+    Apttus_Config2__DisplayType__c: Asset Line Item
+    Apttus_Config2__FieldName__c: Apttus_Config2__BasePrice__c
+    Apttus_Config2__HeaderStyle__c: ''
+    Apttus_Config2__IsEditable__c: 'false'
+    Apttus_Config2__IsSortable__c: 'false'
+    Apttus_Config2__Sequence__c: '8.0'
+    Apttus_Config2__Style__c: ''
+    Apttus_Config2__StyleClass__c: ''
+  - Name: Asset Line Item 9
+    Apttus_Config2__DisplayType__c: Asset Line Item
+    Apttus_Config2__FieldName__c: Apttus_Config2__NetPrice__c
+    Apttus_Config2__HeaderStyle__c: ''
+    Apttus_Config2__IsEditable__c: 'false'
+    Apttus_Config2__IsSortable__c: 'false'
+    Apttus_Config2__Sequence__c: '9.0'
+    Apttus_Config2__Style__c: ext-align:right
+    Apttus_Config2__StyleClass__c: ''
+  - Name: Agreement Price Rule 1
+    Apttus_Config2__DisplayType__c: Agreement Price Rule
+    Apttus_Config2__FieldName__c: Apttus_Config2__Sequence__c
+    Apttus_Config2__HeaderStyle__c: ''
+    Apttus_Config2__IsEditable__c: 'false'
+    Apttus_Config2__IsSortable__c: 'false'
+    Apttus_Config2__Sequence__c: '1.0'
+    Apttus_Config2__Style__c: ''
+    Apttus_Config2__StyleClass__c: ''
+  - Name: Agreement Price Rule 2
+    Apttus_Config2__DisplayType__c: Agreement Price Rule
+    Apttus_Config2__FieldName__c: Apttus_Config2__PriceListItemId__c
+    Apttus_Config2__HeaderStyle__c: ''
+    Apttus_Config2__IsEditable__c: 'true'
+    Apttus_Config2__IsSortable__c: 'false'
+    Apttus_Config2__Sequence__c: '2.0'
+    Apttus_Config2__Style__c: ''
+    Apttus_Config2__StyleClass__c: ''
+  - Name: Agreement Price Rule 3
+    Apttus_Config2__DisplayType__c: Agreement Price Rule
+    Apttus_Config2__FieldName__c: Apttus_Config2__ProductId__c
+    Apttus_Config2__HeaderStyle__c: ''
+    Apttus_Config2__IsEditable__c: 'false'
+    Apttus_Config2__IsSortable__c: 'false'
+    Apttus_Config2__Sequence__c: '3.0'
+    Apttus_Config2__Style__c: ''
+    Apttus_Config2__StyleClass__c: ''
+  - Name: Agreement Price Rule 4
+    Apttus_Config2__DisplayType__c: Agreement Price Rule
+    Apttus_Config2__FieldName__c: Apttus_Config2__BundleProductId__c
+    Apttus_Config2__HeaderStyle__c: ''
+    Apttus_Config2__IsEditable__c: 'false'
+    Apttus_Config2__IsSortable__c: 'false'
+    Apttus_Config2__Sequence__c: '4.0'
+    Apttus_Config2__Style__c: ''
+    Apttus_Config2__StyleClass__c: ''
+  - Name: Agreement Price Rule 5
+    Apttus_Config2__DisplayType__c: Agreement Price Rule
+    Apttus_Config2__FieldName__c: Apttus_Config2__ChargeType__c
+    Apttus_Config2__HeaderStyle__c: ''
+    Apttus_Config2__IsEditable__c: 'false'
+    Apttus_Config2__IsSortable__c: 'false'
+    Apttus_Config2__Sequence__c: '5.0'
+    Apttus_Config2__Style__c: ''
+    Apttus_Config2__StyleClass__c: ''
+  - Name: Agreement Price Tier 1
+    Apttus_Config2__DisplayType__c: Agreement Price Tier
+    Apttus_Config2__FieldName__c: Apttus_Config2__Sequence__c
+    Apttus_Config2__HeaderStyle__c: ''
+    Apttus_Config2__IsEditable__c: 'false'
+    Apttus_Config2__IsSortable__c: 'false'
+    Apttus_Config2__Sequence__c: '1.0'
+    Apttus_Config2__Style__c: ''
+    Apttus_Config2__StyleClass__c: ''
+  - Name: Agreement Price Tier 2
+    Apttus_Config2__DisplayType__c: Agreement Price Tier
+    Apttus_Config2__FieldName__c: Apttus_Config2__TierStartValue__c
+    Apttus_Config2__HeaderStyle__c: ''
+    Apttus_Config2__IsEditable__c: 'true'
+    Apttus_Config2__IsSortable__c: 'false'
+    Apttus_Config2__Sequence__c: '2.0'
+    Apttus_Config2__Style__c: ''
+    Apttus_Config2__StyleClass__c: ''
+  - Name: Agreement Price Tier 3
+    Apttus_Config2__DisplayType__c: Agreement Price Tier
+    Apttus_Config2__FieldName__c: Apttus_Config2__TierEndValue__c
+    Apttus_Config2__HeaderStyle__c: ''
+    Apttus_Config2__IsEditable__c: 'true'
+    Apttus_Config2__IsSortable__c: 'false'
+    Apttus_Config2__Sequence__c: '3.0'
+    Apttus_Config2__Style__c: ''
+    Apttus_Config2__StyleClass__c: ''
+  - Name: Agreement Price Tier 4
+    Apttus_Config2__DisplayType__c: Agreement Price Tier
+    Apttus_Config2__FieldName__c: Apttus_Config2__PeriodStartDate__c
+    Apttus_Config2__HeaderStyle__c: ''
+    Apttus_Config2__IsEditable__c: 'true'
+    Apttus_Config2__IsSortable__c: 'false'
+    Apttus_Config2__Sequence__c: '4.0'
+    Apttus_Config2__Style__c: ''
+    Apttus_Config2__StyleClass__c: ''
+  - Name: Agreement Price Tier 5
+    Apttus_Config2__DisplayType__c: Agreement Price Tier
+    Apttus_Config2__FieldName__c: Apttus_Config2__PeriodEndDate__c
+    Apttus_Config2__HeaderStyle__c: ''
+    Apttus_Config2__IsEditable__c: 'true'
+    Apttus_Config2__IsSortable__c: 'false'
+    Apttus_Config2__Sequence__c: '5.0'
+    Apttus_Config2__Style__c: ''
+    Apttus_Config2__StyleClass__c: ''
+  - Name: Agreement Price Tier 6
+    Apttus_Config2__DisplayType__c: Agreement Price Tier
+    Apttus_Config2__FieldName__c: Apttus_Config2__TierRate__c
+    Apttus_Config2__HeaderStyle__c: ''
+    Apttus_Config2__IsEditable__c: 'true'
+    Apttus_Config2__IsSortable__c: 'false'
+    Apttus_Config2__Sequence__c: '6.0'
+    Apttus_Config2__Style__c: text-align:right
+    Apttus_Config2__StyleClass__c: aptCurrency
+  - Name: Agreement Price Tier 7
+    Apttus_Config2__DisplayType__c: Agreement Price Tier
+    Apttus_Config2__FieldName__c: Apttus_Config2__FlatPrice__c
+    Apttus_Config2__HeaderStyle__c: ''
+    Apttus_Config2__IsEditable__c: 'true'
+    Apttus_Config2__IsSortable__c: 'false'
+    Apttus_Config2__Sequence__c: '7.0'
+    Apttus_Config2__Style__c: text-align:right
+    Apttus_Config2__StyleClass__c: aptCurrency
+  - Name: Agreement Price Tier 8
+    Apttus_Config2__DisplayType__c: Agreement Price Tier
+    Apttus_Config2__FieldName__c: Apttus_Config2__AdjustmentType__c
+    Apttus_Config2__HeaderStyle__c: ''
+    Apttus_Config2__IsEditable__c: 'true'
+    Apttus_Config2__IsSortable__c: 'false'
+    Apttus_Config2__Sequence__c: '8.0'
+    Apttus_Config2__Style__c: ''
+    Apttus_Config2__StyleClass__c: aptAdjustmentType
+  - Name: Agreement Price Tier 9
+    Apttus_Config2__DisplayType__c: Agreement Price Tier
+    Apttus_Config2__FieldName__c: Apttus_Config2__AdjustmentAmount__c
+    Apttus_Config2__HeaderStyle__c: ''
+    Apttus_Config2__IsEditable__c: 'true'
+    Apttus_Config2__IsSortable__c: 'false'
+    Apttus_Config2__Sequence__c: '9.0'
+    Apttus_Config2__Style__c: ''
+    Apttus_Config2__StyleClass__c: aptAdjustment
+- Apttus_Config2__ConfigHeaderCriteriaFields__c: []
+- Apttus_Config2__ConfigLineItemCriteriaFields__c:
+  - Name: Criteria Set 1
+    Apttus_Config2__CriteriaFieldNames__c: |-
+      Apttus_Config2__AttributeValueId__r.Add_HTTPS_Combined__c
+      Apttus_Config2__AttributeValueId__r.Additional_Certificates__c
+      Apttus_Config2__AttributeValueId__r.Additional_GB_Stored__c
+      Apttus_Config2__AttributeValueId__r.Additional_Image_Compressions__c
+  - Name: Criteria Set 2
+    Apttus_Config2__CriteriaFieldNames__c: |-
+      Apttus_Config2__AttributeValueId__r.Additional_Millions_of_Hits__c
+      Apttus_Config2__AttributeValueId__r.Additional_Tokens__c
+      Apttus_Config2__AttributeValueId__r.Additional_Web_Experiences__c
+  - Name: Criteria Set 3
+    Apttus_Config2__CriteriaFieldNames__c: |-
+      Apttus_Config2__AttributeValueId__r.Akam_Commit_Period_Payment_Type__c
+      Apttus_Config2__AttributeValueId__r.Delivery__c
+      Apttus_Config2__AttributeValueId__r.GB_Mbps_Uom__c
+      Apttus_Config2__AttributeValueId__r.Included_Cloud_Monitor_Hits__c
+  - Name: Criteria Set 4
+    Apttus_Config2__CriteriaFieldNames__c: |-
+      Apttus_Config2__AttributeValueId__r.Included_GB_Stored__c
+      Apttus_Config2__AttributeValueId__r.Included_Image_Compressions__c
+      Apttus_Config2__AttributeValueId__r.Included_SAN_Certificates__c
+      Apttus_Config2__AttributeValueId__r.Included_Tokens__c
+  - Name: Criteria Set 5
+    Apttus_Config2__CriteriaFieldNames__c: |-
+      Apttus_Config2__AttributeValueId__r.Included_Web_Experiences__c
+      Apttus_Config2__AttributeValueId__r.Included_Wildcard_Certificates__c
+      Apttus_Config2__AttributeValueId__r.Kona_Tiers__c
+      Apttus_Config2__AttributeValueId__r.Sites_PS_Hours__c
+  - Name: Criteria Set 6
+    Apttus_Config2__CriteriaFieldNames__c: |-
+      Apttus_Config2__AttributeValueId__r.Sites__c
+      Apttus_Config2__AttributeValueId__r.Swap_Family__c
+      Apttus_Config2__AttributeValueId__r.Unit_Of_Measure__c
+      Apttus_Config2__AttributeValueId__r.z_Media_Service_Type__c
+      Apttus_Config2__OptionId__r.Name
+  - Name: Criteria Set 7
+    Apttus_Config2__CriteriaFieldNames__c: |-
+      Apttus_Config2__ProductId__r.Name
+      Bundled_Option_Parent__c
+      Monthlyquantity__c
+      Overage_Threshold_Quantity__c
+      PMI_Channel_Discount_Code__c
+      Parent_Family__c
+- Apttus_Config2__ConfigSelectBundleOptionsSettings__c:
+  - Name: Primary Settings
+    Apttus_Config2__BundleDescriptionField__c: ''
+    Apttus_Config2__HidePriceColumn__c: 'true'
+    Apttus_Config2__HideValidateButton__c: 'false'
+    Apttus_Config2__ListedOptionsColumn2__c: Description
+    Apttus_Config2__ListedOptionsColumn3__c: ''
+    Apttus_Config2__MainSectionRatio__c: 0:70:30
+    Apttus_Config2__ShowBundleDetail__c: 'false'
+    Apttus_Config2__ShowOptionQuantity__c: 'false'
+- Apttus_Config2__ConfigSelectConfigProductsSettings__c:
+  - Name: Primary Settings
+    Apttus_Config2__CarouselCategoryLevel__c: '5.0'
+    Apttus_Config2__CarouselDefaultIcon__c: ''
+    Apttus_Config2__CartListItemDescriptionField__c: ''
+    Apttus_Config2__CollapseAllLeafOptionGroups__c: 'false'
+    Apttus_Config2__CustomActionLabelName__c: ''
+    Apttus_Config2__CustomActionPage__c: ''
+    Apttus_Config2__EnableCategoryFilter__c: 'false'
+    Apttus_Config2__HideBreadcrumb__c: 'false'
+    Apttus_Config2__HideCartHeader__c: 'false'
+    Apttus_Config2__HideCompareProducts__c: 'true'
+    Apttus_Config2__HideConfigureAction__c: 'false'
+    Apttus_Config2__HideDefaultOptionsInDescription__c: 'true'
+    Apttus_Config2__HideHelpMeChoose__c: 'true'
+    Apttus_Config2__HideLineItemAttributeDetails__c: 'true'
+    Apttus_Config2__HideListedProductsPriceColumn__c: 'true'
+    Apttus_Config2__HideNarrowYourSearch__c: 'false'
+    Apttus_Config2__HideProductImage__c: 'true'
+    Apttus_Config2__HideSelectedProductChargeTypes__c: 'false'
+    Apttus_Config2__HideSelectedProductsColumn1__c: 'false'
+    Apttus_Config2__ListedProductsColumn2__c: Description
+    Apttus_Config2__ListedProductsColumn3__c: ''
+    Apttus_Config2__ListedProductsDefaultIcon__c: ''
+    Apttus_Config2__MainSectionRatio__c: 20:60:20
+    Apttus_Config2__OrderStatusFields__c: ''
+    Apttus_Config2__ReadOnlyLocation__c: 'false'
+    Apttus_Config2__SearchQueryLimit__c: '1000.0'
+    Apttus_Config2__SelectedProductsColumn2__c: ''
+    Apttus_Config2__SelectedProductsColumn3__c: ''
+    Apttus_Config2__SelectedProductsColumn4__c: ''
+    Apttus_Config2__ShowCartIcon__c: 'false'
+    Apttus_Config2__ShowProductIconCartDetailView__c: 'false'
+    Apttus_Config2__ShowRecommendedProductsCartView__c: 'false'
+    Apttus_Config2__ShowSelectedProductAllCharges__c: 'false'
+    Apttus_Config2__ShowSelectedProductsInConfigOptions__c: 'false'
+    Apttus_Config2__TwoColumnAttributeDisplay__c: 'false'
+- Apttus_Proposal__ProposalSystemProperties__c:
+  - Name: System Properties
+    Apttus_Proposal__AdminUser__c: ''
+    Apttus_QPConfig__AutoSyncWithOpportunity__c: 'false'
+    Apttus_Proposal__BypassSharing__c: 'false'
+    Apttus_Proposal__DefaultOpportunityQuoteOwner__c: Opportunity Owner
+- Apttus_Proposal__ProposalCustomClasses__c: []
+- Apttus_Config2__InstalledProductsSettings__c: []
+- FrequencyCustomSetting__c:
+  - Name: Total As Incurred
+    Value__c: Total As Incurred
+  - Name: Total Monthly
+    Value__c: Total Monthly Fee
+  - Name: Total One Time
+    Value__c: Total One Time Fee
+  - Name: Commit
+    Value__c: Commit
+  - Name: Included
+    Value__c: Included
+  - Name: Overage
+    Value__c: Overage
+  - Name: Included Units
+    Value__c: Included Units
+  - Name: Usage Rate
+    Value__c: 'Usage Rate:'
+  - Name: Grand Total
+    Value__c: Grand Total
+  - Name: One Time
+    Value__c: one time
+  - Name: Usage
+    Value__c: Usage
+- Apttus_DealMgr__DealManagerSystemProperties__c: []
+- Apttus_Config2__ConfigUserPreferences__c:
+  - Name: Config User Preferences (User)
+    Apttus_Config2__CategoryPreference__c: ''
+    Apttus_Config2__CollapseErrorMessage__c: 'false'
+    Apttus_Config2__CollapseInfoMessage__c: 'false'
+    Apttus_Config2__CollapseQuickAddFilter__c: 'false'
+    Apttus_Config2__CollapseWarningMessage__c: 'false'
+    Apttus_Config2__ItemsPerPage__c: '10.0'
+    Apttus_Config2__OptionItemsPerPage__c: ''
+    Apttus_Config2__SelectedComparisonProducts__c: ''
+    Apttus_Config2__SelectedProductsPerPage__c: ''
+  - Name: Config User Preferences (User)
+    Apttus_Config2__CategoryPreference__c: ''
+    Apttus_Config2__CollapseErrorMessage__c: 'false'
+    Apttus_Config2__CollapseInfoMessage__c: 'false'
+    Apttus_Config2__CollapseQuickAddFilter__c: 'false'
+    Apttus_Config2__CollapseWarningMessage__c: 'false'
+    Apttus_Config2__ItemsPerPage__c: '10.0'
+    Apttus_Config2__OptionItemsPerPage__c: ''
+    Apttus_Config2__SelectedComparisonProducts__c: ''
+    Apttus_Config2__SelectedProductsPerPage__c: ''
+  - Name: Config User Preferences (User)
+    Apttus_Config2__CategoryPreference__c: ''
+    Apttus_Config2__CollapseErrorMessage__c: 'false'
+    Apttus_Config2__CollapseInfoMessage__c: 'false'
+    Apttus_Config2__CollapseQuickAddFilter__c: 'false'
+    Apttus_Config2__CollapseWarningMessage__c: 'true'
+    Apttus_Config2__ItemsPerPage__c: '50.0'
+    Apttus_Config2__OptionItemsPerPage__c: '50.0'
+    Apttus_Config2__SelectedComparisonProducts__c: ''
+    Apttus_Config2__SelectedProductsPerPage__c: ''
+  - Name: Config User Preferences (User)
+    Apttus_Config2__CategoryPreference__c: ''
+    Apttus_Config2__CollapseErrorMessage__c: 'false'
+    Apttus_Config2__CollapseInfoMessage__c: 'false'
+    Apttus_Config2__CollapseQuickAddFilter__c: 'false'
+    Apttus_Config2__CollapseWarningMessage__c: 'false'
+    Apttus_Config2__ItemsPerPage__c: '50.0'
+    Apttus_Config2__OptionItemsPerPage__c: '15.0'
+    Apttus_Config2__SelectedComparisonProducts__c: ''
+    Apttus_Config2__SelectedProductsPerPage__c: ''
+  - Name: Config User Preferences (User)
+    Apttus_Config2__CategoryPreference__c: ''
+    Apttus_Config2__CollapseErrorMessage__c: 'false'
+    Apttus_Config2__CollapseInfoMessage__c: 'false'
+    Apttus_Config2__CollapseQuickAddFilter__c: 'false'
+    Apttus_Config2__CollapseWarningMessage__c: 'false'
+    Apttus_Config2__ItemsPerPage__c: '10.0'
+    Apttus_Config2__OptionItemsPerPage__c: ''
+    Apttus_Config2__SelectedComparisonProducts__c: ''
+    Apttus_Config2__SelectedProductsPerPage__c: ''
+  - Name: Config User Preferences (User)
+    Apttus_Config2__CategoryPreference__c: ''
+    Apttus_Config2__CollapseErrorMessage__c: 'false'
+    Apttus_Config2__CollapseInfoMessage__c: 'false'
+    Apttus_Config2__CollapseQuickAddFilter__c: 'false'
+    Apttus_Config2__CollapseWarningMessage__c: 'false'
+    Apttus_Config2__ItemsPerPage__c: '10.0'
+    Apttus_Config2__OptionItemsPerPage__c: ''
+    Apttus_Config2__SelectedComparisonProducts__c: ''
+    Apttus_Config2__SelectedProductsPerPage__c: ''
+  - Name: Config User Preferences (User)
+    Apttus_Config2__CategoryPreference__c: ''
+    Apttus_Config2__CollapseErrorMessage__c: 'false'
+    Apttus_Config2__CollapseInfoMessage__c: 'false'
+    Apttus_Config2__CollapseQuickAddFilter__c: 'false'
+    Apttus_Config2__CollapseWarningMessage__c: 'false'
+    Apttus_Config2__ItemsPerPage__c: '10.0'
+    Apttus_Config2__OptionItemsPerPage__c: ''
+    Apttus_Config2__SelectedComparisonProducts__c: ''
+    Apttus_Config2__SelectedProductsPerPage__c: ''
+  - Name: Config User Preferences (User)
+    Apttus_Config2__CategoryPreference__c: ''
+    Apttus_Config2__CollapseErrorMessage__c: 'false'
+    Apttus_Config2__CollapseInfoMessage__c: 'false'
+    Apttus_Config2__CollapseQuickAddFilter__c: 'false'
+    Apttus_Config2__CollapseWarningMessage__c: 'false'
+    Apttus_Config2__ItemsPerPage__c: '10.0'
+    Apttus_Config2__OptionItemsPerPage__c: ''
+    Apttus_Config2__SelectedComparisonProducts__c: ''
+    Apttus_Config2__SelectedProductsPerPage__c: ''
+  - Name: Config User Preferences (User)
+    Apttus_Config2__CategoryPreference__c: ''
+    Apttus_Config2__CollapseErrorMessage__c: 'false'
+    Apttus_Config2__CollapseInfoMessage__c: 'false'
+    Apttus_Config2__CollapseQuickAddFilter__c: 'false'
+    Apttus_Config2__CollapseWarningMessage__c: 'false'
+    Apttus_Config2__ItemsPerPage__c: '10.0'
+    Apttus_Config2__OptionItemsPerPage__c: ''
+    Apttus_Config2__SelectedComparisonProducts__c: ''
+    Apttus_Config2__SelectedProductsPerPage__c: ''
+  - Name: Config User Preferences (User)
+    Apttus_Config2__CategoryPreference__c: ''
+    Apttus_Config2__CollapseErrorMessage__c: 'false'
+    Apttus_Config2__CollapseInfoMessage__c: 'false'
+    Apttus_Config2__CollapseQuickAddFilter__c: 'false'
+    Apttus_Config2__CollapseWarningMessage__c: 'false'
+    Apttus_Config2__ItemsPerPage__c: '10.0'
+    Apttus_Config2__OptionItemsPerPage__c: ''
+    Apttus_Config2__SelectedComparisonProducts__c: ''
+    Apttus_Config2__SelectedProductsPerPage__c: ''
+  - Name: Config User Preferences (User)
+    Apttus_Config2__CategoryPreference__c: ''
+    Apttus_Config2__CollapseErrorMessage__c: 'false'
+    Apttus_Config2__CollapseInfoMessage__c: 'false'
+    Apttus_Config2__CollapseQuickAddFilter__c: 'false'
+    Apttus_Config2__CollapseWarningMessage__c: 'false'
+    Apttus_Config2__ItemsPerPage__c: '10.0'
+    Apttus_Config2__OptionItemsPerPage__c: ''
+    Apttus_Config2__SelectedComparisonProducts__c: ''
+    Apttus_Config2__SelectedProductsPerPage__c: ''
+  - Name: Config User Preferences (User)
+    Apttus_Config2__CategoryPreference__c: ''
+    Apttus_Config2__CollapseErrorMessage__c: 'false'
+    Apttus_Config2__CollapseInfoMessage__c: 'false'
+    Apttus_Config2__CollapseQuickAddFilter__c: 'false'
+    Apttus_Config2__CollapseWarningMessage__c: 'false'
+    Apttus_Config2__ItemsPerPage__c: '10.0'
+    Apttus_Config2__OptionItemsPerPage__c: ''
+    Apttus_Config2__SelectedComparisonProducts__c: ''
+    Apttus_Config2__SelectedProductsPerPage__c: ''
+  - Name: Config User Preferences (User)
+    Apttus_Config2__CategoryPreference__c: ''
+    Apttus_Config2__CollapseErrorMessage__c: 'false'
+    Apttus_Config2__CollapseInfoMessage__c: 'false'
+    Apttus_Config2__CollapseQuickAddFilter__c: 'false'
+    Apttus_Config2__CollapseWarningMessage__c: 'false'
+    Apttus_Config2__ItemsPerPage__c: '10.0'
+    Apttus_Config2__OptionItemsPerPage__c: ''
+    Apttus_Config2__SelectedComparisonProducts__c: ''
+    Apttus_Config2__SelectedProductsPerPage__c: ''
+  - Name: Config User Preferences (User)
+    Apttus_Config2__CategoryPreference__c: ''
+    Apttus_Config2__CollapseErrorMessage__c: 'false'
+    Apttus_Config2__CollapseInfoMessage__c: 'false'
+    Apttus_Config2__CollapseQuickAddFilter__c: 'false'
+    Apttus_Config2__CollapseWarningMessage__c: 'false'
+    Apttus_Config2__ItemsPerPage__c: '10.0'
+    Apttus_Config2__OptionItemsPerPage__c: ''
+    Apttus_Config2__SelectedComparisonProducts__c: ''
+    Apttus_Config2__SelectedProductsPerPage__c: ''
+  - Name: Config User Preferences (User)
+    Apttus_Config2__CategoryPreference__c: ''
+    Apttus_Config2__CollapseErrorMessage__c: 'false'
+    Apttus_Config2__CollapseInfoMessage__c: 'false'
+    Apttus_Config2__CollapseQuickAddFilter__c: 'false'
+    Apttus_Config2__CollapseWarningMessage__c: 'false'
+    Apttus_Config2__ItemsPerPage__c: '10.0'
+    Apttus_Config2__OptionItemsPerPage__c: ''
+    Apttus_Config2__SelectedComparisonProducts__c: ''
+    Apttus_Config2__SelectedProductsPerPage__c: ''
+  - Name: Config User Preferences (User)
+    Apttus_Config2__CategoryPreference__c: ''
+    Apttus_Config2__CollapseErrorMessage__c: 'false'
+    Apttus_Config2__CollapseInfoMessage__c: 'false'
+    Apttus_Config2__CollapseQuickAddFilter__c: 'false'
+    Apttus_Config2__CollapseWarningMessage__c: 'false'
+    Apttus_Config2__ItemsPerPage__c: '10.0'
+    Apttus_Config2__OptionItemsPerPage__c: ''
+    Apttus_Config2__SelectedComparisonProducts__c: ''
+    Apttus_Config2__SelectedProductsPerPage__c: ''
+  - Name: Config User Preferences (User)
+    Apttus_Config2__CategoryPreference__c: ''
+    Apttus_Config2__CollapseErrorMessage__c: 'false'
+    Apttus_Config2__CollapseInfoMessage__c: 'false'
+    Apttus_Config2__CollapseQuickAddFilter__c: 'false'
+    Apttus_Config2__CollapseWarningMessage__c: 'false'
+    Apttus_Config2__ItemsPerPage__c: '10.0'
+    Apttus_Config2__OptionItemsPerPage__c: ''
+    Apttus_Config2__SelectedComparisonProducts__c: ''
+    Apttus_Config2__SelectedProductsPerPage__c: ''
+  - Name: Config User Preferences (User)
+    Apttus_Config2__CategoryPreference__c: ''
+    Apttus_Config2__CollapseErrorMessage__c: 'false'
+    Apttus_Config2__CollapseInfoMessage__c: 'false'
+    Apttus_Config2__CollapseQuickAddFilter__c: 'false'
+    Apttus_Config2__CollapseWarningMessage__c: 'false'
+    Apttus_Config2__ItemsPerPage__c: '10.0'
+    Apttus_Config2__OptionItemsPerPage__c: ''
+    Apttus_Config2__SelectedComparisonProducts__c: ''
+    Apttus_Config2__SelectedProductsPerPage__c: ''
+  - Name: Config User Preferences (User)
+    Apttus_Config2__CategoryPreference__c: ''
+    Apttus_Config2__CollapseErrorMessage__c: 'false'
+    Apttus_Config2__CollapseInfoMessage__c: 'false'
+    Apttus_Config2__CollapseQuickAddFilter__c: 'false'
+    Apttus_Config2__CollapseWarningMessage__c: 'false'
+    Apttus_Config2__ItemsPerPage__c: '10.0'
+    Apttus_Config2__OptionItemsPerPage__c: ''
+    Apttus_Config2__SelectedComparisonProducts__c: ''
+    Apttus_Config2__SelectedProductsPerPage__c: ''
+  - Name: Config User Preferences (User)
+    Apttus_Config2__CategoryPreference__c: ''
+    Apttus_Config2__CollapseErrorMessage__c: 'false'
+    Apttus_Config2__CollapseInfoMessage__c: 'false'
+    Apttus_Config2__CollapseQuickAddFilter__c: 'false'
+    Apttus_Config2__CollapseWarningMessage__c: 'false'
+    Apttus_Config2__ItemsPerPage__c: '10.0'
+    Apttus_Config2__OptionItemsPerPage__c: ''
+    Apttus_Config2__SelectedComparisonProducts__c: ''
+    Apttus_Config2__SelectedProductsPerPage__c: ''
+  - Name: Config User Preferences (User)
+    Apttus_Config2__CategoryPreference__c: ''
+    Apttus_Config2__CollapseErrorMessage__c: 'false'
+    Apttus_Config2__CollapseInfoMessage__c: 'false'
+    Apttus_Config2__CollapseQuickAddFilter__c: 'false'
+    Apttus_Config2__CollapseWarningMessage__c: 'false'
+    Apttus_Config2__ItemsPerPage__c: '10.0'
+    Apttus_Config2__OptionItemsPerPage__c: ''
+    Apttus_Config2__SelectedComparisonProducts__c: ''
+    Apttus_Config2__SelectedProductsPerPage__c: ''
+- Apttus_Config2__ConfigSystemProperties__c:
+  - Name: System Properties
+    Apttus_Config2__ActionsColumnPosition__c: Right
+    Apttus_Config2__AdminUser__c: ''
+    Apttus_Config2__AutoFinalizeOnCartApproval__c: 'false'
+    Apttus_Config2__AutoSyncOnCartApproval__c: 'false'
+    Apttus_Config2__BaseProductRelationField__c: ''
+    Apttus_Config2__BypassSharing__c: 'false'
+    Apttus_Config2__BypassShoppingCart__c: 'false'
+    Apttus_Config2__CascadeSharedAttributeUpdates__c: 'true'
+    Apttus_Config2__CurrencyFieldPrecision__c: ''
+    Apttus_Config2__CustomAssetActionLabelName__c: ''
+    Apttus_Config2__CustomAssetActionPage__c: ''
+    Apttus_Config2__DefaultProductsPage__c: Apttus_Config2__SelectConfigProductsFilterView
+    Apttus_Config2__AlertSelectedExclude__c: 'false'
+    Apttus_Config2__DeferPricingUntilCart__c: 'true'
+    Apttus_Config2__DeferValidationCheckInBundles__c: 'true'
+    Apttus_Config2__DirectConfigureAssetActions__c: ''
+    Apttus_Config2__DisableChargeTypeTotaling__c: 'false'
+    Apttus_Config2__DisableConstraintRules__c: 'false'
+    Apttus_Config2__DisableExistingAssetPricing__c: 'false'
+    Apttus_Config2__EnableAggregatePricing__c: 'true'
+    Apttus_Config2__EnableAutoReprice__c: 'false'
+    Apttus_Config2__EnableAutoSequencingForOptions__c: 'true'
+    Apttus_Config2__EnableDefaultingForOptions__c: 'true'
+    Apttus_Config2__EnableDefaultingForProducts__c: 'true'
+    Apttus_Config2__EnableExternalPricing__c: 'false'
+    Apttus_Config2__EnableLocation__c: 'false'
+    Apttus_Config2__EnableMatrixPricingForOptions__c: 'true'
+    Apttus_Config2__GuidePageDefault__c: ''
+    Apttus_Config2__HideAssetActions__c: ''
+    Apttus_Config2__HideCopyAction__c: 'true'
+    Apttus_Config2__HideGrandTotal__c: 'false'
+    Apttus_Config2__HideResolveConfigLink__c: 'false'
+    Apttus_Config2__HideSubtotalsInCart__c: 'false'
+    Apttus_Config2__IndicateErrorTypeExclude__c: 'false'
+    Apttus_Config2__IndicateWarningTypeExclude__c: 'false'
+    Apttus_Config2__InstanceUrl__c: https://akamai--l2cint.cs20.my.salesforce.com
+    Apttus_Config2__KeepAbandonedCarts__c: 'false'
+    Apttus_Config2__MaxAdjustmentLines__c: '1.0'
+    Apttus_Config2__MaxConstraintRulesRoundTrip__c: '3.0'
+    Apttus_Config2__MiscChargeTypes__c: "Remaining Contract Value\r\nFamily"
+    Apttus_Config2__OptionLineItemColumns__c: ''
+    Apttus_Config2__OptionProductColumns__c: ''
+    Apttus_Config2__OptionsPageDefault__c: Apttus_Config2__SelectConfigOptionsDetailView
+    Apttus_Config2__PercentageFieldPrecision__c: ''
+    Apttus_Config2__PreventErrorTypeExcludeSelection__c: 'false'
+    Apttus_Config2__ProductAttributeDetailPage__c: Apttus_Config2__ProductAttributeDetail3
+    Apttus_Config2__ProductTotalingHierarchy__c: ''
+    Apttus_Config2__QuantityFieldPrecision__c: '2.0'
+    Apttus_Config2__ResolveConfigurationPageDefault__c: Apttus_Config2__ResolveConfig
+    Apttus_Config2__RunFinalizationTaskInAsyncMode__c: 'false'
+    Apttus_Config2__SearchAttributeDefaultPage__c: ''
+    Apttus_Config2__SearchAttributeValuePage__c: ''
+    Apttus_Config2__SearchCategoryDefault__c: AllCategories
+    Apttus_Config2__ShowErrorInHeader__c: 'false'
+    Apttus_Config2__ShowHeader__c: 'false'
+    Apttus_Config2__ShowInfoInHeader__c: 'false'
+    Apttus_Config2__ShowMessageInline__c: 'false'
+    Apttus_Config2__AlertInclude__c: 'false'
+    Apttus_Config2__TabViewInConfigureBundle__c: 'false'
+    Apttus_Config2__ShowWarningInHeader__c: 'false'
+    Apttus_Config2__SkipPricingOnSelectPages__c: 'false'
+    Apttus_Config2__SkipReview__c: 'true'
+    Apttus_Config2__StaticCriteriaFields__c: ''
+    Apttus_Config2__TotalingGroupType__c: ''
+    Apttus_Config2__ViewCartCustomFields__c: Apttus_Config2__AssetLineItemId__r.AM__c,Akam_Payment_Type__c,Apttus_Config2__AttributeValueId__r.z_Secure_Delivery__c,Apttus_Config2__ProductId__r.ProductCode,Apttus_Config2__AttributeValueId__r.Akam_Commit_Period_Payment_Type__c
+    Apttus_Config2__ViewCartCustomFields2__c: Apttus_Config2__AssetLineItemId__r.Akamai_Asset_Status__c,Apttus_Config2__AssetLineItemId__r.AKAM_System__c,Monthlyquantity__c,Apttus_Config2__AssetLineItemId__r.AT__c,IsProcessed__c,isDateProcessed__c
+    Apttus_Config2__ViewCartPage__c: Apttus_Config2__CartDetailView
+    Apttus_Config2__ViewCartTotalCustomFields__c: ''
